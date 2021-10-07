@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hesap Makinesi</title>
+</head>
+<body>
+    <div class="loader"></div>
+    <h1 class="baslik">Hesap Makinesi</h1>
+    <section class="deneme" id="hesaplama">
+        <ul class="textbox">
+            <label for="ilkSayi">Bir Sayı Giriniz</label>
+            <input type="number" placeholder="0" id="input-ilkSayi">
+        </ul>
+        <ul class="textbox">
+            <label for="ikinciSayi" >Bir Sayı Giriniz</label>
+            <input type="number"  placeholder="0" id="input-ikinciSayi">
+        </ul>
+        <ul >
+            <label class="datalist" for="islem">Yapmak İstediğiniz İşlemi Seçiniz</label>
+            <input type="dortislem" id="input-dortislem" list="dortislem">
+            <datalist id="dortislem">
+                <option value ="Toplama"></option>
+                <option value="Çıkarma"></option>
+                <option value="Çarpma"></option>
+                <option value="Bölme"></option>
+            </datalist>
+        </ul>  
+        <button class="hesapla" type="button" id="hesapla-BTN">Hesapla</button>
+        
+        <h2 class="sonuc">Sonuc: <label  for="sonuc" id="sonuc"></label></h2>
+        
+        
+        
+    
+    
+    
+    
+    
+    
+</body>
+<script src="script.js"></script>
+
+</html>
